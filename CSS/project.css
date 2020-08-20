@@ -1,0 +1,25 @@
+#portfolio img {
+    max-width: 100%;
+}
+
+#portfolio a h3 {
+    color: #212529;
+}
+
+#portfolio {
+    -ms-flex-align: center;
+}
+
+.card-deck {
+    margin: 15px;
+}
+
+.card-img-top {
+    border-bottom: 1px solid lightgrey;
+    padding: 2px;
+}
+
+.card-text {
+    font-style: italic;
+    font-weight: bold;
+}

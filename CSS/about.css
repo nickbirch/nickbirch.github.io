@@ -1,0 +1,8 @@
+p a {
+    text-decoration: none;
+    color: #3e3f47;
+}
+
+#about p {
+    padding: 1rem;
+}

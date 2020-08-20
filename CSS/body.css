@@ -2,3 +2,19 @@ body {
     background: var(--blue);
     font-family: var(--font-one);
 }
+
+#landing-section {
+    padding-top: 65px;
+}
+
+.list-inline > li {
+    display: inline;
+}
+
+.btn {
+    margin: 1rem;
+}
+
+.extra-space {
+    padding-top: 75px;
+}

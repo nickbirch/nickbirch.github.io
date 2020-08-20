@@ -17,9 +17,15 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
+    <!-- Site preloader -->
+    <section id="preloader">
+      <div class="site-spinner"></div>
+    </section>
     <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img id="headshot" src="assets/headshot.png"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,75 +39,232 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav" id="nav-content">
-          <li class="nav-item active">
-            <a class="nav-link" href="#landing-section"
-              >Home <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!-- Jumbotron  -->
+    <!-- Intro Section  -->
     <section id="landing-section">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
+          <h1 class="display-4">Nick Birch</h1>
           <p class="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
+            Entrepreneur & Engineer
           </p>
+          <ul class="list-inline intro-social-buttons">
+            <li>
+              <a
+                href="https://github.com/nickbirch"
+                target="blank"
+                class="btn btn-light btn-lg"
+                ><i class="fa fa-github fa-fw"></i>
+                <span class="network-name">Github</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/nick-birch-5763ab18/"
+                target="blank"
+                class="btn btn-light btn-lg"
+                ><i class="fa fa-linkedin fa-fw"></i>
+                <span class="network-name">Linkedin</span></a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </section>
-    <!--Bootsrap layout-->
-    <section>
+    <!-- About Section  -->
+    <a name="about"></a>
+    <section class="extra-space">
+      <div class="container text-center">
+        <h2 class="mb-60">About Me</h2>
+      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 offset-md-4">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-          <div class="col">This is a column</div>
-        </div>
-        <div class="row">
-          <div class="col">This is another column</div>
-          <div class="col">This is another column</div>
-          <div class="col">This is another column</div>
+        <div class="row justify-content-md-center">
+          <div class="col-md">
+            <p class="lead">
+              I believe in a future where our workforce is able to keep up with
+              the continually evolving skills needed to be successful, without
+              incurring significant debt. I'm a co-founder of
+              <a href="https://elevenfifty.org" target="blank">Eleven Fifty Academy</a> and
+              <a href="https://propelup.io" target="blank">PropelUp</a>, both of which are
+              focused on enabling this future. Now, I am taking the Web
+              Development class at Eleven Fifty Academy to learn how to write
+              code, myself, so that I can help build our application and
+              understand the challenges of learning technology skills.
+            </p>
+          </div>
+          <div class="col-md">
+            <p class="lead">
+              I'm a speaker on entrepreneurship and technology and my writing
+              has been featured in the Indianapolis Business Journal,
+              VentureBeat, and TechPoint. In 2017, 2018, and 2019, I was a
+              nominee for TechPoint's Rising Entrepreneur/Star award. In 2019, I
+              was a
+              <a href="https://www.mdlfindiana.org/"
+                target="blank">Mitch Daniels Leadership Fellow</a
+              >. I also volunteer hundreds of hours a year as a baseball coach
+              for North Central High School and for
+              <a href="jajobspark.org" target="blank">JobSpark</a>, a Junior Achievement event
+              for Indianapolis 8th graders. See more of my resume, by <a href="https://docs.google.com/document/d/1z3lOu0Y6EGit4TtuNwUbGHyDQvqfs75MzVR7qHDca_M/edit?usp=sharing" target="blank">clicking here</a>.
+            </p>
+          </div>
         </div>
       </div>
     </section>
+    <hr />
+    <!--Portfolio layout-->
+    <a name="portfolio"></a>
+    <section class="extra-space">
+      <div class="container text-center">
+        <h2 class="mb-60">Portfolio</h2>
+      </div>
+      <div class="container text-center portfolio">
+        <div class="card-deck">
+          <div class="card" style="width: 18rem;">
+            <a href="https://nickbirch.github.io/staticLayout/" target="blank"
+              ><img
+                class="card-img-top"
+                src="assets/static_layout.png"
+                alt="Card image cap"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">Star War's Static Layout</p>
+            </div>
+          </div>
 
-    <section id="contact">
-      <div class="container">
+          <div class="card" style="width: 18rem;">
+            <a href="https://nickbirch.github.io/creatureCSS/" target="blank"
+              ><img
+                class="card-img-top"
+                src="assets/doge.png"
+                alt="Card image cap"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">CSS Creature</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <a href="https://nickbirch.github.io/API_Assignment/" target="blank"
+              ><img
+                class="card-img-top"
+                src="assets/spaceX.png"
+                alt="Card image cap"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">SpaceX API</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card" style="width: 18rem;">
+            <a href="https://birchapi2.web.app/" target="blank"
+              ><img
+                class="card-img-top"
+                src="assets/weather.png"
+                alt="Card image cap"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">Weather/Air Quality API</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/Red-Coming-Soon-Stamp.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">Coming Soon</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="assets/Red-Coming-Soon-Stamp.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">Coming Soon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Contact Form -->
+    <a name="contact"></a>
+    <section class="extra-space">
+      <div class="container text-center">
+        <h2 class="mb-60">Contact Me</h2>
+      </div>
+      <div class="col-lg text-center contact-form">
         <form action="https://formspree.io/xlepvber" method="POST">
-          <label>
-            Your email:
-            <input type="text" name="_replyto" />
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-          <button type="submit">Send</button>
+          <input
+            style="height: 40px; font-size: 13pt;"
+            class="form-control"
+            type="text"
+            name="name"
+            size="50"
+            placeholder=" Your Name*"
+          /><br />
+          <input
+            style="height: 40px; font-size: 13pt;"
+            class="form-control"
+            type="email"
+            name="_replyto"
+            size="50"
+            placeholder=" Your Email*"
+          /><br />
+          <input
+            style="height: 40px; font-size: 13pt;"
+            class="form-control"
+            type="text"
+            name="message"
+            size="50"
+            placeholder=" Your Message*"
+          /><br />
+          <input
+            style="background-color: #a6a6a6;"
+            class="btn btn-default btn-lg"
+            type="submit"
+            value="Send"
+          />
         </form>
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <ul class="list-inline">
+              <li>
+                <a href="#">Top</a>
+              </li>
+            </ul>
+            <p class="copyright">
+              Copyright &copy; Nick Birch 2020 All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap script link -->
     <script
@@ -121,5 +284,7 @@
     ></script>
     <!-- My JS tag -->
     <script src="main.js"></script>
+    <!-- Font Awesome Import -->
+    <script src="https://use.fontawesome.com/5799e35c18.js"></script>
   </body>
 </html>
