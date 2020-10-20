@@ -1,6 +1,10 @@
 :root {
     --red: #FF3D3D;
-    --blue: #4374fb;
+    --blue: #1c50fc;
+    --darkgrey: #2f2c4f;
+    --white: #ffffff;
+    --lightblue: #4374fb;
+    --lightgrey: #afafc9;
 
     --font-one: 'Baloo Tamma 2', crsive;
 }

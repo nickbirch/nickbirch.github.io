@@ -1,9 +1,13 @@
+.portfolio-header {
+    color: var(--white)
+}
+
 #portfolio img {
     max-width: 100%;
 }
 
 #portfolio a h3 {
-    color: #212529;
+    color: var(--white);
 }
 
 #portfolio {
@@ -15,17 +19,18 @@
 }
 
 .card-img-top {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid var(--lightgrey);
     padding: 2px;
 }
 
-.card-text {
+.card-text a {
     font-style: italic;
     font-weight: bold;
+    color: var(--darkgrey);
 }
 
 .card-header {
     padding: 1rem;
     font-size: 1.5rem;
-    background-color: #a6a6a6;
+    background-color: var(--lightgrey);
 }

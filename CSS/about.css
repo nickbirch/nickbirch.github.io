@@ -1,8 +1,9 @@
 p a {
     text-decoration: none;
-    color: #3e3f47;
+    color: var(--orange);
 }
 
-#about p {
+.about {
     padding: 1rem;
+    color: var(--white);
 }
